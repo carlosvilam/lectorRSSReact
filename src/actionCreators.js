@@ -1,5 +1,4 @@
-import RSSParser from 'rss-parser'
-
+import RSSParser from '../public/rss-parser/dist/rss-parser'
 const removeFeed =
  title => { 
     return{
