@@ -3,3 +3,22 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.minus{
+  background-color: #d9534f ;
+  border-color: #d9534f ;
+  height: 42px;
+  width: 42px;
+}
+.minus:hover{
+  border-color: #c44e4b;
+  background-color:#c44e4b;
+}
+.btn{
+  margin:1%;
+}
+.row{
+  margin-top:1%;
+}
+.volver{
+  margin-left:90%  
+}
