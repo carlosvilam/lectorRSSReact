@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Button, Glyphicon, ListGroup} from 'react-bootstrap';
+import { Button, ListGroup} from 'react-bootstrap';
 import {connect} from 'react-redux';
-import {removeFeed, selectMainFeed} from '../actionCreators';
+import { selectMainFeed} from '../actionCreators';
 import moment from 'moment';
 import ReactLoading from 'react-loading';
 class RSSFeed extends Component { 

@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Button, Glyphicon, ListGroup, Row, Col} from 'react-bootstrap';
+import { Button, ListGroup, Row, Col} from 'react-bootstrap';
 import {connect} from 'react-redux';
 import {removeFeed,selectFeed} from '../actionCreators'
-import ReactLoading from 'react-loading';
 
 class RSSlist extends Component { 
     constructor(props){

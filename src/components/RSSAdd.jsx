@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Glyphicon, FormControl, Form} from 'react-bootstrap';
+import { Button,FormControl, Form} from 'react-bootstrap';
 import {addFeed,selectFeed} from '../actionCreators';
 import {connect} from 'react-redux'
 class RSSAdd extends Component {

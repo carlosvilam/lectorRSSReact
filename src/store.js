@@ -8,7 +8,7 @@ const reducer = (state, action) => {
             return{
                 ...state,
                 feeds: state.feeds.filter(f => f.title !== action.title),
-                selectedfeed: state.selectedfeed.title == action.title ? null : state.selectedfeed
+                selectedfeed: state.selectedfeed.title === action.title ? null : state.selectedfeed
                 };
         }
         case "ADD_FEED":{       

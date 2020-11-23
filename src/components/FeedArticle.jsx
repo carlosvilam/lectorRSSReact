@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Glyphicon, ListGroup, Row, Col} from 'react-bootstrap';
+import { Button} from 'react-bootstrap';
 import {connect} from 'react-redux';
 import {removeMainFeed} from '../actionCreators'
 import moment from 'moment'
